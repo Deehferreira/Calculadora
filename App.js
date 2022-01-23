@@ -42,10 +42,10 @@ export default function App() {
         setCurrentNumber((fistNumber + lastNumber).toString());
         return;
       case '-':
-        setCurrentNumber((fistNumber - lastNumber).toString());
+        setCurrentNumber((fistNumber * lastNumber).toString());
         return;
       case 'x':
-        setCurrentNumber((fistNumber * lastNumber).toString());
+        setCurrentNumber((fistNumber - lastNumber).toString());
         return;
       case '/':
         setCurrentNumber((fistNumber / lastNumber).toString());
